@@ -1,0 +1,16 @@
+{
+    "name": "Emergency",
+    "alias": "emergency",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Emergency\\Providers\\EmergencyServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

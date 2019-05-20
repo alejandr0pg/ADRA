@@ -1,0 +1,16 @@
+{
+    "name": "AdraInitialData",
+    "alias": "adrainitialdata",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\AdraInitialData\\Providers\\AdraInitialDataServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

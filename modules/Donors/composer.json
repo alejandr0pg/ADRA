@@ -1,0 +1,25 @@
+{
+    "name": "leopardus/donors",
+    "description": "",
+    "authors": [
+        {
+            "name": "Leopardus",
+            "email": "contact@leoardus.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Donors\\Providers\\DonorsServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Donors\\": ""
+        }
+    }
+}

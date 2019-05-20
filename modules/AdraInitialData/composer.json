@@ -1,0 +1,25 @@
+{
+    "name": "leopardus/adrainitialdata",
+    "description": "",
+    "authors": [
+        {
+            "name": "Leopardus",
+            "email": "contact@leoardus.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\AdraInitialData\\Providers\\AdraInitialDataServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AdraInitialData\\": ""
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "leopardus/coreplanification",
+    "description": "",
+    "authors": [
+        {
+            "name": "Leopardus",
+            "email": "contact@leoardus.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\CorePlanification\\Providers\\CorePlanificationServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\CorePlanification\\": ""
+        }
+    }
+}

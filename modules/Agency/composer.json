@@ -1,0 +1,25 @@
+{
+    "name": "leopardus/agency",
+    "description": "",
+    "authors": [
+        {
+            "name": "Leopardus",
+            "email": "contact@leoardus.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Agency\\Providers\\AgencyServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Agency\\": ""
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "leopardus-net/tasks",
+    "description": "",
+    "authors": [
+        {
+            "name": "Leopardus System",
+            "email": "support@leoardus.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Tasks\\Providers\\TasksServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Tasks\\": ""
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Donors",
+    "alias": "donors",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Donors\\Providers\\DonorsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
